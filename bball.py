@@ -92,7 +92,7 @@ class Hoop(pygame.sprite.Sprite):
 ball = Ball()
 hoop = Hoop()
 score = 0
-hoop.speed = 10
+hoop.speed = 1
 text = font.render("Score: " + str(score),True,(255,255,255))
 
 hit = False
